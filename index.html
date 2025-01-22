@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Home</title>
     <meta name="description" content="">
@@ -115,7 +116,8 @@
         <section class="slider-container" style="margin-top: -400px">
             <!-- Slider Image -->
             <div id="mainSlider" class="nivoSlider slider-image">
-                <video src="images/dash.mp4" alt="main slider" title="#htmlcaption1" controls></video>
+                <!-- <video src="images/dash.mp4" alt="main slider" title="#htmlcaption1" controls></video> -->
+                <img src="images/slider/1.jpg" alt="main slider" title="#htmlcaption2">
                 <img src="images/slider/2.jpg" alt="main slider" title="#htmlcaption2">
                 <img src="images/slider/3.jpg" alt="main slider" title="#htmlcaption3">
                 <img src="images/slider/4.jpg" alt="main slider" title="#htmlcaption4">
@@ -1782,5 +1784,84 @@
         }
     </script>
 </body>
+<style>
+    /* 针对手机屏幕的样式调整 */
+@media (max-width: 768px) {
+    /* 调整文字大小 */
+    body {
+        font-size: 14px;
+    }
 
+    /* 调整间距 */
+    .header-logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 调整导航栏 */
+    .primary-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* 调整图片大小 */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 处理某些过大的元素 */
+    .shopping-cart ul {
+        scale: 1;
+    }
+
+    /* 修复特定布局混乱的部分 */
+    .header-middle-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}/* 修复宽度溢出问题 */
+.container, .row, .col-md-*, .col-sm-* {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* 清理冗余的边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 针对部分边距过大的元素 */
+.col-md-5, .col-sm-4 {
+    margin: 0 auto;
+    padding: 10px;
+}
+/* 让图片和视频自适应屏幕 */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .primary-menu ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    /* 添加一个按钮显示菜单 */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* 当菜单被激活时显示 */
+    .primary-menu ul.active {
+        display: flex;
+    }
+}
+</style>
 </html>
