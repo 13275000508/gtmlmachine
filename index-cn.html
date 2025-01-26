@@ -1,0 +1,1741 @@
+﻿<!doctype html>
+<html class="no-js" lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>首页</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <!-- 所有CSS文件包含在此处 -->
+    <!-- Bootstrap 框架主CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- core.css 文件包含所有插件CSS文件。 -->
+    <link rel="stylesheet" href="css/core.css">
+    <!-- 主题短代码/元素样式 -->
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <!-- 主题主样式 -->
+    <link rel="stylesheet" href="style.css">
+    <!-- 响应式CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- 用户自定义样式 -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Modernizr JS -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- 头部区域开始 -->
+        <header>
+            <div class="header-top gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="header-top-left">
+                            <li style="display: flex; gap: 30px; list-style: none; padding: 0; margin-left: 15px;">
+                                <span><a href="https://www.tiktok.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="抖音" src="images/social/tiktok.png"></a></span>
+                                <span><a href="https://www.facebook.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="Facebook" src="images/social/facebook.png"></a></span>
+                                <span><a href="https://x.com/gtmlmachine" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="微博" src="images/social/x.png"></a></span>
+                                <span><a href="https://www.youtube.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="YouTube" src="images/social/youtube.png"></a></span>
+                                <span><a href="https://www.instagram.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="Instagram" src="images/social/ins.png"></a></span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row header-middle-content">
+                        <div class="col-md-5 col-sm-4 hidden-xs" style="margin-bottom: 30px">
+                            <div class="service-inner mt-10">
+                                <span class="service-img b-img">
+                                    <img alt="" src="images/email.png">
+                                </span>
+                                <span class="service-content ml-15"><strong>GTMLmachine@Gmail.com</strong><br>24小时内反馈</span>
+                            </div>
+                            <div class="service-inner mt-10">
+                                <span class="service-img b-img">
+                                    <img alt="" src="images/service.png">
+                                </span>
+                                <span class="service-content ml-15"><strong>+86 132 7350 0358</strong><br>下午6点–凌晨12点 (UTC+8)</span>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-12">
+                            <div class="header-logo text-center">
+                                <a href="index.html"><img class="scaled-image" alt="" src="images/logo.png"></a>
+                            </div>
+                        </div>
+                        <!-- 添加ID属性以便更新元素 -->
+                        <div class="col-md-offset-0 col-md-5 col-sm-offset-0 col-sm-4 col-xs-offset-3 col-xs-6" style="z-index: 99">
+                            <div class="shopping-cart">
+                                <ul class="header-top-style pl-10" style="scale: 1.5">
+                                    <li>
+                                        <span class="mr-10"><img id="selected-language-img" style="scale: 0.4;margin-right: -20px" alt="" src="images/header/language/china.jpg"></span>
+                                        <a href="#"><span id="selected-language-text" class="mr-10" style="color: #0b0b0b">中文</span><i class="fa fa-angle-down"></i></a>
+                                        <ul class="ul-style language box-shadow white-bg">
+                                            <li style="margin-top: -15px;margin-left: -28px"><a href="index-cn.html" onclick="changeLanguage('china.jpg', '中文')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/china.jpg"><span style="margin-left: -10px">中文</span></a></li>
+                                            <li style="margin-top: -10px;margin-left: -28px"><a href="index.html" onclick="changeLanguage('english.jpg', 'English')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/english.jpg"><span style="margin-left: -10px">English</span></a></li>
+                                         
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('indonesia.jpg', '印尼语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/indonesia.jpg"><span style="margin-left: -10px">印尼语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('japan.jpg', '日语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/japan.jpg"><span style="margin-left: -10px">日语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('korean.jpg', '韩语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/korean.jpg"><span style="margin-left: -10px">韩语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('vietnam.jpg', '越南语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/vietnam.jpg"><span style="margin-left: -10px">越南语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('马来西亚.jpg', '马来语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/马来西亚.jpg"><span style="margin-left: -10px">马来语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('thailand.jpg', '泰语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/thailand.jpg"><span style="margin-left: -10px">泰语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('spain.jpg', '西班牙语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/spain.jpg"><span style="margin-left: -10px">西班牙语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('french.jpg', '法语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/french.jpg"><span style="margin-left: -10px">法语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('germany.jpg', '德语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/germany.jpg"><span style="margin-left: -10px">德语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('italy.jpg', '意大利语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/italy.jpg"><span style="margin-left: -10px">意大利语</span></a></li>-->
+    <!--                                            <li style="margin-top: -15px;margin-left: -28px"><a href="#" onclick="changeLanguage('Russia.jpg', '俄语')"><img alt="" style="scale: 0.4;margin-left: -5px" src="images/header/language/Russia.jpg"><span style="margin-left: -10px">俄语</span></a></li>-->
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <nav class="primary-menu">
+                            <ul class="header-top-style text-uppercase">
+                                <li><a href="index-cn.html">首页</a></li>
+                                <li><a href="about-cn.html">关于我们</a></li>
+    <!--                                <li><a href="shop.html">商店</a></li>-->
+    <!--								<li><a href="my-account.html">我的账户</a></li>-->
+    <!--								<li><a href="login.html">登录</a></li>-->
+    <!--                                <li><a href="contact.html">联系我们</a></li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </header>
+            <!-- 头部区域结束 -->
+            <!-- 幻灯片区域开始 -->
+            <section class="slider-container" style="margin-top: -400px">
+                <!-- 幻灯片图片 -->
+                <div id="mainSlider" class="nivoSlider slider-image">
+                    <!-- <video src="images/dash.mp4" alt="主幻灯片" title="#htmlcaption1" controls></video> -->
+                    <img src="images/slider/1.jpg" alt="主幻灯片" title="#htmlcaption2">
+                    <img src="images/slider/2.jpg" alt="主幻灯片" title="#htmlcaption2">
+                    <img src="images/slider/3.jpg" alt="主幻灯片" title="#htmlcaption3">
+                    <img src="images/slider/4.jpg" alt="主幻灯片" title="#htmlcaption4">
+                </div>
+                <!-- 幻灯片标题1 -->
+                <div id="htmlcaption1" class="nivo-html-caption slider-caption-1">
+                    <div class="slider-progress"></div> 
+                    <div class="container slider-height">
+                        <div class="row slider-height">
+                            <div class="col-xs-offset-6 col-xs-6 slider-height">
+    <!--                            <div class="slide-text">-->
+    <!--                                <div class="middle-text">-->
+    <!--                                    <div class="cap-dec text-black text-uppercase wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0s">-->
+    <!--                                        <h3>时尚女装系列</h3>-->
+    <!--                                    </div>  -->
+    <!--                                    <div class="cap-title text-black text-uppercase wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s">-->
+    <!--                                        <h2>2018年女装</h2>-->
+    <!--                                    </div>  -->
+    <!--                                    <div class="cap-para wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">-->
+    <!--                                        <p>我们提供最新的时尚女装，款式多样，价格实惠。</p>-->
+    <!--                                    </div>-->
+    <!--                                    <div class="cap-shop wow text-uppercase fadeInDown" data-wow-duration="2.5s" data-wow-delay="1.5s">-->
+    <!--                                        <a href="#">立即购买</a>-->
+    <!--                                    </div>  -->
+    <!--                                </div>  -->
+    <!--                            </div>-->
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <!-- 幻灯片标题2 -->
+                <div id="htmlcaption2" class="nivo-html-caption slider-caption-2">
+                    <div class="slider-progress"></div> 
+                    <div class="container slider-height">
+                        <div class="row slider-height">
+                            <div class="col-xs-offset-5 col-xs-7 slider-height">
+                                <div class="slide-text">
+                                    <div class="middle-text">
+                                        <div class="cap-dec text-black text-uppercase wow fadeInDown" data-wow-duration="0.9s" data-wow-delay="0s">
+    <!--                                        <h3>独家系列</h3>-->
+                                        </div>  
+                                        <div class="cap-title text-black text-uppercase wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0.5s">
+    <!--                                        <h2>男士外套</h2>-->
+                                        </div>  
+                                        <div class="cap-para wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">
+    <!--                                        <p>我们提供高质量的男士外套，款式多样，价格实惠。</p>-->
+                                        </div>
+                                        <div class="cap-shop wow fadeInDown" data-wow-duration="2.5s" data-wow-delay="1.5s">
+    <!--                                        <a href="#">立即购买</a>-->
+                                        </div>  
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 幻灯片区域结束 -->
+            <!-- 页面内容开始 -->
+            <section id="page-content" class="page-wrapper">  
+                <!-- 关于我们区域开始 -->
+                <div class="why-us section-padding text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4">
+                                <div class="why-us-inner">
+                                    <div class="why-us-icon mb-20">
+                                        <img src="images/why-us/1.png" alt="">
+                                    </div>
+                                    <h5 class="text-uppercase m-0"><strong>领先技术</strong></h5>
+    <!--                                <p class="why-us-title m-0">所有产品免费</p>-->
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="why-us-inner">
+                                    <div class="why-us-icon mb-20">
+                                        <img src="images/why-us/2.png" alt="">
+                                    </div>
+                                    <h5 class="text-uppercase "><strong>20年以上经验</strong></h5>
+    <!--                                <p class="why-us-title m-0">www.forge.com</p>-->
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4">
+                                <div class="why-us-inner">
+                                    <div class="why-us-icon mb-20">
+                                        <img src="images/why-us/3.png" alt="">
+                                    </div>
+                                    <h5 class="text-uppercase "><strong>售后支持</strong></h5>
+    <!--                                <p class="why-us-title m-0">退款保证</p>-->
+                                </div>
+                            </div>
+                            <div class="col-md-3 hidden-sm">
+                                <div class="why-us-inner m-0">
+                                    <div class="why-us-icon mb-20">
+                                        <img src="images/why-us/4.png" alt="">
+                                    </div>
+                                    <h5 class="text-uppercase "><strong>原厂制造</strong></h5>
+    <!--                                <p class="why-us-title m-0">惊喜礼券</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 关于我们区域结束 -->
+                <!-- 横幅区域开始 -->
+
+                <div class="banner-area">
+                    <div class="container">
+                        <div class="row rp-style">
+                            <div class="col-sm-4 cp-style">
+                                <div class="banner-inner">
+                                    <a class="test-popup-link banner-img" href="images/banner/1.1.png">
+                                        <img src="images/banner/1.1.png" alt="">
+                                    </a>
+                                    <div class="banner-text banner-text-1">
+                                        <!-- <a href="#" class="banner-heading text-uppercase text-right">女性新潮流</a>
+                                        <h3 class="banner-title text-uppercase text-right">特惠75折</h3> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 cp-style">
+                                <div class="row rp-style">
+                                    <div class="col-sm-8 cp-style">
+                                        <div class="banner-inner">
+                                            <a class="test-popup-link banner-img" href="images/banner/2.jpg">
+                                                <img src="images/banner/2.2.png" alt="">
+                                            </a>
+                                            <div class="banner-text banner-text-2 text-center">
+    <!--                                            <a href="#" class="banner-heading text-uppercase text-right">男士</a>-->
+    <!--                                            <h3 class="banner-title-x text-uppercase">夏季</h3>-->
+    <!--                                            <h3 class="banner-title text-uppercase text-right">系列</h3>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 cp-style">
+                                        <div class="banner-inner">
+                                            <a class="test-popup-link banner-img" href="images/banner/3.3.png">
+                                                <img src="images/banner/3.3.png" alt="">
+                                            </a>
+                                            <div class="banner-text banner-text-3">
+    <!--                                            <a href="#" class="banner-heading text-uppercase text-right">鞋类</a>-->
+    <!--                                            <h3 class="banner-title text-uppercase text-right">35% 折扣</h3>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row rp-style mt-8">
+                                    <div class="col-sm-4 cp-style">
+                                        <div class="banner-inner">
+                                            <a class="test-popup-link banner-img" href="images/banner/4.4.png">
+                                                <img src="images/banner/4.4.png" alt="">
+                                            </a>
+                                            <div class="banner-text banner-text-4 text-right">
+    <!--                                            <a href="#" class="banner-heading text-uppercase text-right">包类</a>-->
+    <!--                                            <h3 class="banner-title text-uppercase text-right">促销</h3>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 cp-style">
+                                        <div class="banner-inner m-0">
+                                            <a class="test-popup-link banner-img" href="images/banner/5.5.png">
+                                                <img src="images/banner/5.5.png" alt="">
+                                            </a>
+                                            <div class="banner-text banner-text-5 text-center">
+    <!--                                            <a href="#" class="banner-heading text-uppercase text-right">儿童</a>-->
+    <!--                                            <h3 class="banner-title text-uppercase text-right">系列</h3>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 横幅区域结束 -->
+                <!-- 精选产品区域开始 -->
+                <div class="featured-product-area section-padding">
+                    <div class="container">
+                        <div class="row rp-style">
+
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #c7254e;font-size: 30px;"><strong>热销产品 - 汽车脚垫</strong></h2>
+                                </div>
+                        </div>
+                        <div class="offer-banner-area section-padding clearfix" style="margin-top: -35px">
+                            <figure class="single-offer-banner b-img">
+                                <img src="images/offer-banner/1.jpg" alt="">
+                                <figcaption>
+                                    <div class="figcation-text left-top text-uppercase text-left text-white">
+                                        <!--                                                        <h1>new</h1>-->
+                                        <!--                                                        <h1>Arrival</h1>-->
+                                        <!--                                                        <h1>20% off</h1>-->
+                                    </div>
+                                    <div class=" left-bottom">
+                                        <h1 style="color: #c7254e;font-size: 30px;left: -30px"></h1>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <figure class="single-offer-banner b-img">
+                                <img src="images/offer-banner/2.jpg" alt="">
+                                <figcaption>
+                                    <div class="figcation-text left-top text-uppercase text-left text-white">
+                                        <!--                            <h1>手表</h1>-->
+                                    </div>
+                                    <div class="figcation-text text-uppercase right-bottom text-white text-right">
+                                        <!--                            <h1>独家</h1>-->
+                                        <!--                            <h1>系列</h1>-->
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <figure class="single-offer-banner b-img m-0">
+                                <img src="images/offer-banner/3.jpg" alt="">
+                                <figcaption>
+                                    <div class="figcation-text right-top text-uppercase text-left text-white text-right">
+                                        <!--                            <h1>大优惠</h1>-->
+                                        <!--                            <h1>35% 折扣</h1>-->
+                                    </div>
+                                    <div class="figcation-text left-bottom text-uppercase text-white">
+                                        <!--                            <h1>鞋类</h1>-->
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-product-area section-padding" style="margin-top: -180px">
+                    <div class="container">
+                        <div class="row rp-style">
+                            <div class="col-md-12">
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #c7254e"><strong>美容美发系列</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rp-style">
+                            <div class="featured-carousel indicator-style">
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Foot%20Pedal.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="脚踏板" href="#">脚踏板</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Massage%20Chair%20Back%20Cover.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="按摩椅靠背罩" href="#">按摩椅靠背罩</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Storage%20Rack.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="储物架" href="#">储物架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Pedicure%20Bed.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="足疗床" href="#">足疗床</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Shampoo%20Basin.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="洗发盆" href="#">洗发盆</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Beauty%20Bed%20Frame%20Cover2.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="美容床框架罩" href="#">美容床框架罩</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Beauty%20Bed%20Frame%20Cover1.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="美容床框架罩" href="#">美容床框架罩</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Armrest.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="扶手" href="#">扶手</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Storage%20Rack1.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="储物架" href="#">储物架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 35px">
+                        <div class="row rp-style">
+                            <div class="col-md-12">
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #c7254e"><strong>包袋及行李系列</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rp-style">
+                            <div class="featured-carousel indicator-style">
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Suitcase.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="行李箱" href="#">行李箱</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Fishing%20Tackle%20Box.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="钓鱼工具箱" href="#">钓鱼工具箱</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Backpack%20Shell.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="背包外壳" href="#">背包外壳</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Children’s%20Luggage%20and%20Bags.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="儿童行李及包袋" href="#">儿童行李及包袋</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Makeup%20Case.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="化妆包" href="#">化妆包</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Medical%20Kit%20Series.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="医疗工具系列" href="#">医疗工具系列</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/bag/Suitcase1.JPG">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="行李箱" href="#">行李箱</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Armrest.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="扶手" href="#">扶手</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/beauty/Storage%20Rack1.jpg">                                        </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="储物架" href="#">储物架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 35px">
+                        <div class="row rp-style">
+                            <div class="col-md-12">
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #c7254e"><strong>玩具配件</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rp-style">
+                            <div class="featured-carousel indicator-style">
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gaming%20Console%20Accessories4.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="游戏控制台配件" href="#">游戏控制台配件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gaming%20Console%20Accessories1.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="游戏控制台配件" href="#">游戏控制台配件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gaming%20Console%20Accessories2.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="游戏控制台配件" href="#">游戏控制台配件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/spacecraft/8S6A0571.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="飞船部件" href="#">飞船部件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gyro%20Battle%20Stadium/8S6A0502.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="陀螺战斗场" href="#">陀螺战斗场</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/spacecraft/8S6A0572.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="飞船部件" href="#">飞船部件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gaming%20Console%20Accessories.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="游戏控制台配件" href="#">游戏控制台配件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/toys/Gyro%20Battle%20Stadium/8S6A0501.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="陀螺战斗场" href="#">陀螺战斗场</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="margin-top: 35px">
+                        <div class="row rp-style">
+                            <div class="col-md-12">
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #c7254e"><strong>汽车零件系列</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rp-style">
+                            <div class="featured-carousel indicator-style">
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Body%20Kit.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="车身套件" href="#">车身套件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Body%20Kit1.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="车身套件" href="#">车身套件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Transmission%20Cover.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="变速箱盖" href="#">变速箱盖</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Brake%20Caliper%20Mounting%20Tray.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="刹车卡钳安装托盘" href="#">刹车卡钳安装托盘</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Engine%20Tray.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="发动机托盘" href="#">发动机托盘</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/Engine%20Tray1.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="发动机托盘" href="#">发动机托盘</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img alt="" src="images/product/car/logo.jpg">
+                                            </div>
+                                        </a>
+                                        <div class="product-text pt-15">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name m-0">
+                                                <a title="标志" href="#">标志</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              
+                </div>
+                <div class="container" style="margin-top: 35px">
+                    <div class="row rp-style">
+                        <div class="col-md-12">
+                            <div class="section-title text-center mb-35">
+                                <h2 class="text-uppercase" style="color: #c7254e"><strong>制冷系列-1</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rp-style">
+                        <div class="featured-carousel indicator-style">
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Ice%20Bucket%20Inner%20Tank.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冰桶内胆" href="#">冰桶内胆</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Ice%20Bucket%20Inner%20Tank1.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冰桶内胆" href="#">冰桶内胆</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Ice%20Bucket%20Inner%20Tank2.JPG">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冰桶内胆" href="#">冰桶内胆</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Door%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="门内衬" href="#">门内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Door%20Liner2.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="门内衬" href="#">门内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Door%20Liner3.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="门内衬" href="#">门内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Inner%20Tank%20Storage%20Rack.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="内胆储物架" href="#">内胆储物架</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Soda%20Cap.jpg">                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="苏打盖" href="#">苏打盖</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 35px">
+                    <div class="row rp-style">
+                        <div class="col-md-12">
+                            <div class="section-title text-center mb-35">
+                                <h2 class="text-uppercase" style="color: #c7254e"><strong>制冷系列-2</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rp-style">
+                        <div class="featured-carousel indicator-style">
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Wine%20Cooler%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="酒柜内衬" href="#">酒柜内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Wine%20Cooler%20Inner%20Liner1.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="酒柜内衬" href="#">酒柜内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Red%20Bull%20Vending%20Machine%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="红牛自动售货机内衬" href="#">红牛自动售货机内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Barbecue%20Grill%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="烧烤架内衬" href="#">烧烤架内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Juice%20Vending%20Machine%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="果汁自动售货机内衬" href="#">果汁自动售货机内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 35px">
+                    <div class="row rp-style">
+                        <div class="col-md-12">
+                            <div class="section-title text-center mb-35">
+                                <h2 class="text-uppercase" style="color: #c7254e"><strong>制冷系列-3</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rp-style">
+                        <div class="featured-carousel indicator-style">
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Ice%20Maker%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="制冰机内衬" href="#">制冰机内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Ice%20Maker%20Water%20Tank.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="制冰机水箱" href="#">制冰机水箱</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Freezer%20Evaporator%20Cover.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冷冻器蒸发器盖" href="#">冷冻器蒸发器盖</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Freezer%20Drip%20Tray.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冷冻室滴水盘" href="#">冷冻室滴水盘</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Freezer%20Drip%20Tray1.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冷冻室滴水盘" href="#">冷冻室滴水盘</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+     
+                <div class="container" style="margin-top: 35px">
+                    <div class="row rp-style">
+                        <div class="col-md-12">
+                            <div class="section-title text-center mb-35">
+                                <h2 class="text-uppercase" style="color: #c7254e"><strong>制冷系列-4</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row rp-style">
+                        <div class="featured-carousel indicator-style">
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Freezer%20Inner%20Liner.JPG">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冷冻室内衬" href="#">冷冻室内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Freezer%20Inner%20Liner1.JPG">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冷冻室内衬" href="#">冷冻室内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Refrigerator%20Inner%20Liner.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冰箱内衬" href="#">冰箱内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Refrigerator%20Inner%20Liner1.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="冰箱内衬" href="#">冰箱内衬</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-container cp-style-2">
+                                <div class="product-inner">
+                                    <a href="#">
+                                        <div class="product-img b-img">
+                                            <img alt="" src="images/product/refrigeration/Insulated%20Box%20Inner%20Liner%20and%20Outer%20Shell.jpg">
+                                        </div>
+                                    </a>
+                                    <div class="product-text pt-15">
+                                        <div class="clear"></div>
+                                        <h6 class="product-name m-0">
+                                            <a title="保温箱外壳" href="#">保温箱外壳</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="new-arrival-area" style="margin-top: 70px;">
+                    <div class="container">
+                        <div class="row rp-style-2">
+                            <div class="col-md-12">
+                                <div class="section-title text-center mb-35">
+                                    <h2 class="text-uppercase" style="color: #0C904D;font-size: 35px"><strong>最新上架产品</strong></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rp-style-2">
+                            <div class="featured-carousel indicator-style">
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/Fan%20Cover.jpg" alt="">
+                                            </div>
+                                        </a>
+
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="风扇罩">风扇罩</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner mt-35">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/Air%20Condition%20Part.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="空调部件">空调部件</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/Vacuum%20Formed%20Flower%20Pot.jpg" alt="">
+                                            </div>
+                                        </a>
+
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="真空成型花盆">真空成型花盆</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner mt-35">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/Table%20Mat.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="桌垫">桌垫</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/display.jpg" alt="">
+                                            </div>
+                                        </a>
+
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="展示架">展示架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner mt-35">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/display1.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="展示架">展示架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/display2.jpg" alt="">
+                                            </div>
+                                        </a>
+
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="展示架">展示架</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner mt-35">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/wavePlate.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="波纹板">波纹板</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-container cp-style-2">
+                                    <div class="product-inner">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/antennacover.jpg" alt="">
+                                            </div>
+                                        </a>
+
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="天线罩">天线罩</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                    <div class="product-inner mt-35">
+                                        <a href="#">
+                                            <div class="product-img b-img">
+                                                <img src="images/product/icecreammachineshell.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="product-text">
+                                            <div class="clear"></div>
+                                            <h6 class="product-name">
+                                                <a href="#" title="冰淇淋机外壳">冰淇淋机外壳</a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <!--            <div class="new-arrival-area" style="margin-top: 35px">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="row rp-style-2">-->
+    <!--                        <div class="col-md-12">-->
+    <!--                            <div class="section-title text-center mb-35">-->
+    <!--                                <h2 class="text-uppercase"><strong>客户现场照片</strong></h2>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="row rp-style-2">-->
+    <!--                        <div class="featured-carousel indicator-style">-->
+    <!--                            <div class="product-container cp-style-2">-->
+    <!--                                <div class="product-inner">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/1.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    <!--&lt;!&ndash;                                    <span class="product-tag text-uppercase orang-bg">-20%</span>&ndash;&gt;-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Teletria ostma">Teletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="product-inner mt-35">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/2.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Eletria ostma">Eletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                            <div class="product-container cp-style-2">-->
+    <!--                                <div class="product-inner">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/3.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    <!--&lt;!&ndash;                                    <span class="product-tag text-uppercase black-bg">新</span>&ndash;&gt;-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Wetria postma">Wetria postma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="product-inner mt-35">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/4.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    <!--&lt;!&ndash;                                    <span class="product-tag text-uppercase orang-bg">-20%</span>&ndash;&gt;-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Eletria ostma">Eletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                            <div class="product-container cp-style-2">-->
+    <!--                                <div class="product-inner">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/5.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Kelletria ostma">Kelletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="product-inner mt-35">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/6.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    <!--&lt;!&ndash;                                    <span class="product-tag text-uppercase black-bg">新</span>&ndash;&gt;-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Eletria ostma">Eletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                            <div class="product-container cp-style-2">-->
+    <!--                                <div class="product-inner">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/7.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    <!--&lt;!&ndash;                                    <span class="product-tag text-uppercase orang-bg">-20%</span>&ndash;&gt;-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Celletria ostma">Celletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="product-inner mt-35">-->
+    <!--                                    <a href="#">-->
+    <!--                                        <div class="product-img b-img">-->
+    <!--                                            <img src="images/product/arrival/8.jpg" alt="">-->
+    <!--                                        </div>-->
+    <!--                                    </a>-->
+    
+    <!--                                    <div class="product-text">-->
+    
+    <!--                                        <div class="clear"></div>-->
+    <!--                                        <h6 class="product-name">-->
+    <!--                                            <a href="#" title="Eletria ostma">Eletria ostma</a>-->
+    <!--                                        </h6>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    
+    
+    
+    
+    <!--            <div class="brand-area section-padding">-->
+    <!--                <div class="container">-->
+    <!--                    <div class="row">-->
+    <!--                        <div class="col-md-12">-->
+    <!--                            <div class="section-title text-center mb-35">-->
+    <!--                                <h2 class="text-uppercase"><strong>我们的合作伙伴</strong></h2>-->
+    <!--                            </div>-->
+    <!--                            <div class="brand-carousel" style="margin-left: -35px">-->
+    <!--                                <div class="col-md-12" style="scale: 0.85;margin-left: 0px">-->
+    <!--                                    <div class="single-brand text-center">-->
+    <!--                                        <a href="#">-->
+    <!--                                            <img src="images/brand/1.1.png" alt="">-->
+    <!--                                        </a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="col-md-12" style="scale: 0.55">-->
+    <!--                                    <div class="single-brand text-center">-->
+    <!--                                        <a href="#">-->
+    <!--                                            <img src="images/brand/1.2.png" alt="">-->
+    <!--                                        </a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="col-md-12" style="scale: 0.48">-->
+    <!--                                    <div class="single-brand text-center">-->
+    <!--                                        <a href="#">-->
+    <!--                                            <img src="images/brand/1.6.png" alt="">-->
+    <!--                                        </a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="col-md-12" style="scale: 0.48;margin-top: -10px">-->
+    <!--                                    <div class="single-brand text-center">-->
+    <!--                                        <a href="#">-->
+    <!--                                            <img src="images/brand/1.4.png" alt="">-->
+    <!--                                        </a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="col-md-12"style="scale: 0.58;margin-top: -30px">-->
+    <!--                                    <div class="single-brand text-center">-->
+    <!--                                        <a href="#">-->
+    <!--                                            <img src="images/brand/1.5.png" alt="">-->
+    <!--                                        </a>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+                <!-- 品牌区域结束 -->
+            </section>
+            <!-- 页面内容结束 -->
+            <!-- 页脚区域开始 -->
+            <footer id="footer" class="footer-area" style="margin-top: 80px;">
+                <div class="footer-middle-area footer-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="single-footer-inner">
+                                    <h5 class="footer-title text-white">地址</h5>
+                                    <ul class="footer-contact">
+                                        <li class="footer-text text-ash">
+                                            <p>广东省</p>
+                                            <p>广州市</p>
+                                            <p>番禺区</p>
+                                            <p>石壁街</p>
+                                            <p>韦涌村码头</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="single-footer-inner">
+                                    <h5 class="footer-title text-white">电话</h5>
+                                    <ul class="footer-contact">
+                                        <li class="footer-text text-ash">
+                                            <p>(+86) 132 7500 0508</p>
+                                            <p>(801) 4256  9658</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="single-footer-inner">
+                                    <h5 class="footer-title text-white">邮箱</h5>
+                                    <ul class="footer-contact">
+                                        <li class="footer-text text-ash">
+                                            <p>GTMLmachine@gmail.com</p>
+                                            <p>GTMLmachine@gmail.com</p
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="copyright">
+                                        <p>版权所有 &copy; 2024.冠田铭利 <a target="_blank" href="#"></a></p>
+                                    </div>
+                                </div>
+                                <li style="display: flex; gap: 30px; list-style: none; padding: 0; margin-left: 15px;margin-top: 20px;">
+                                    <span><a href="https://www.tiktok.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="抖音" src="images/social/tiktok.png"></a></span>
+                                    <span><a href="https://www.facebook.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="脸书" src="images/social/facebook.png"></a></span>
+                                    <span><a href="https://www.twitter.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="推特" src="images/social/x.png"></a></span>
+                                    <span><a href="https://www.youtube.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="油管" src="images/social/youtube.png"></a></span>
+                                    <span><a href="https://www.instagram.com" target="_blank"><img style="width: 30px; height: auto; display: inline-block;" alt="照片墙" src="images/social/ins.png"></a></span>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            <!-- 页脚区域结束 -->
+        </div>
+        <!-- 主体包装结束 -->    
+
+        <!-- 将JS放在文档末尾以加快页面加载速度 -->
+
+        <!-- 最新版本的jquery -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- Bootstrap 框架JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- 所有JS插件包含在此文件中。 -->
+        <script src="js/plugins.js"></script>
+        <!-- 主JS文件，包含所有jQuery插件激活。 -->
+        <script src="js/main.js"></script>
+
+        <!-- 处理语言更改的JavaScript函数 -->
+        <script>
+            function changeLanguage(image, text) {
+                document.getElementById('selected-language-img').src = 'images/header/language/' + image;
+                document.getElementById('selected-language-text').textContent = text;
+            }
+        </script>
+    </body>
+</html>
